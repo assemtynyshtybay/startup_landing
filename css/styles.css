@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    background: #151719;;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 168px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.section-header__btns{
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+}
+
+.intro {
+    min-height: 100vh;
+    padding-top: 160px;
+}
+
+.intro__title {
+    color: #D9E3EA;
+    text-align: center;
+font-size: 52px;
+font-weight: 800;
+line-height: 62px;
+padding-bottom: 16px;
+}
+
+.intro__description {
+    width: 768px;
+    color: #9BA9B4;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 61px;
+    margin-bottom: 32px;
+}
+
+.intro__btns{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+.free-trial-btn{
+    width: 167px;
+    padding: 12px 32px;
+box-shadow: 0px 10px 15px -3px rgba(21, 23, 25, 0.16);
+}
+
+.learn-more-btn{
+    width: 149px;
+    padding: 12px 32px;
+background: #33363A;
+box-shadow: 0px 10px 15px -3px rgba(21, 23, 25, 0.16);
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 208px;
+}
+
+video {
+    width: 1024px;
+    height: 576px;
+    background-color: #fff;
+}
+
+button {
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 2px;
+    background: #5D5DFF;
+    box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+}
+
+.outline-btn {
+    color: #5D5DFF;
+    background: none;
+}
+
+.shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; 
+}
