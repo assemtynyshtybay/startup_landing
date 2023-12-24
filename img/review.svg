@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon">
+<g id="Bg">
+<rect id="Rectangle" width="64" height="64" rx="32" fill="#5D5DFF"/>
+</g>
+<g id="Shapes">
+<path id="Path" d="M29 42.0001H39.229C40.1072 42.0002 40.8828 41.4275 41.141 40.5881L43.91 31.5881C44.0965 30.9817 43.9843 30.3229 43.6076 29.8124C43.2309 29.302 42.6344 29.0006 42 29.0001H35V25.0001C35 22.6271 33.749 21.5061 32.236 21.1401C31.9369 21.0698 31.6222 21.1401 31.3814 21.3308C31.1406 21.5216 31.0001 21.8119 31 22.1191V26.0001L26 32.0001" stroke="#F4F4FF" stroke-width="2" stroke-linecap="square"/>
+<rect id="Rectangle_2" x="22" y="30" width="4" height="12" stroke="#CBCCFF" stroke-width="2" stroke-linecap="square"/>
+</g>
+</g>
+</svg>
